@@ -1,0 +1,2 @@
+# harzcoin
+Harzcoin Core
