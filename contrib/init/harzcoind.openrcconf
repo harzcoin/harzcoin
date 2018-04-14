@@ -1,0 +1,33 @@
+# /etc/conf.d/harzcoind: config file for /etc/init.d/harzcoind
+
+# Config file location
+#HARZCOIND_CONFIGFILE="/etc/harzcoin/harzcoin.conf"
+
+# What directory to write pidfile to?  (created and owned by $HARZCOIND_USER)
+#HARZCOIND_PIDDIR="/var/run/harzcoind"
+
+# What filename to give the pidfile
+#HARZCOIND_PIDFILE="${HARZCOIND_PIDDIR}/harzcoind.pid"
+
+# Where to write harzcoind data (be mindful that the blockchain is large)
+#HARZCOIND_DATADIR="/var/lib/harzcoind"
+
+# User and group to own harzcoind process
+#HARZCOIND_USER="harzcoin"
+#HARZCOIND_GROUP="harzcoin"
+
+# Path to harzcoind executable
+#HARZCOIND_BIN="/usr/bin/harzcoind"
+
+# Nice value to run harzcoind under
+#HARZCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+#HARZCOIND_OPTS=""
+
+# The timeout in seconds OpenRC will wait for harzcoind to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+HARZCOIND_SIGTERM_TIMEOUT=60

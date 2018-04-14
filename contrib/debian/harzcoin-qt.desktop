@@ -1,0 +1,13 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Harzcoin Core
+Comment=Connect to the Harzcoin P2P Network
+Comment[de]=Verbinde mit dem Harzcoin peer-to-peer Netzwerk
+Comment[fr]=Harzcoin, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Harzcoin, eşten eşe kriptografik sanal para birimi
+Exec=harzcoin-qt %u
+Terminal=false
+Type=Application
+Icon=harzcoin128
+MimeType=x-scheme-handler/harzcoin;
+Categories=Office;Finance;

@@ -1,0 +1,6 @@
+usr/local/bin/harzcoin-qt usr/bin
+share/pixmaps/harzcoin32.xpm usr/share/pixmaps
+share/pixmaps/harzcoin16.xpm usr/share/pixmaps
+share/pixmaps/harzcoin128.png usr/share/pixmaps
+debian/harzcoin-qt.desktop usr/share/applications
+debian/harzcoin-qt.protocol usr/share/kde4/services/
